@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables */
+$main-font: #fff;
+
+body {
+  color: $main-font;
+}
+
+a {
+  color: $main-font;
+}
