@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home, About, NotFound } from "./pages";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
-import GithubProvider from "./context/github/GithubContext";
+import { GithubProvider } from "./context/github/GithubContext";
 
 function App() {
   return (
